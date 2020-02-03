@@ -1,0 +1,37 @@
+.about-container {
+  display: flex;
+  width: 100%;
+  margin-left: 4rem;
+  padding-top: 4rem;
+  height: 40%;
+
+  justify-content: center;
+  align-items: flex-start;
+}
+.about-me {
+  &-title {
+    margin: 0;
+    font-size: 3rem;
+    text-transform: uppercase;
+  }
+  &-paragraph {
+    font-size: 1.5rem;
+    width: 80%;
+    margin: 0;
+  }
+}
+.text-box {
+  width: 50%;
+}
+.image-box {
+  width: 50%;
+  .image {
+    width: 90%;
+    height: auto;
+  }
+}
+#about-section {
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+}

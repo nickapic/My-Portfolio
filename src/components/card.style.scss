@@ -1,0 +1,21 @@
+.project-display-card {
+  display: flex;
+  margin: 3rem 0rem 0 4rem;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  margin-top: 2rem;
+  margin-bottom: 7rem;
+  display: flex;
+  flex-wrap: wrap;
+}
+.heading {
+  padding-top: 5rem;
+  text-align: center;
+  text-transform: uppercase;
+}
+.maincontainer {
+  min-height: 100vh;
+}

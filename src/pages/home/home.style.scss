@@ -1,0 +1,9 @@
+.down-arrow {
+  display: block;
+  height: 24px;
+  width: 24px;
+  //    margin: 0 auto;
+  margin: 10rem auto 10rem auto;
+  opacity: 0;
+  animation: fade-slide-up 1s 1s forwards, pulsate 2s 3s ease-out infinite;
+}
