@@ -11,7 +11,7 @@ export default function ContactForm() {
         </p>
       </div>
 
-      <form action="POST" data-netlify="true" className="form">
+      <form method="POST" data-netlify="true" className="form">
         <label htmlFor="fname" className="label">
           First Name
         </label>
