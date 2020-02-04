@@ -7,12 +7,10 @@ const Header = props => {
         <a to="/">Nickapic</a>
       </h1>
       <div className="nav-items animate-pop-in">
-        <a to=".about-container" className="nav-item">
-          {" "}
+        <a href=".about-container" className="nav-item">
           About Me
         </a>
-        <a to=".contact_me-container" className="nav-item">
-          {" "}
+        <a href="#form" className="nav-item">
           Contact Me
         </a>
       </div>

@@ -5,7 +5,7 @@
 }
 
 html {
-  background-color: rgb(8, 8, 8);
+  background-color: rgb(17, 17, 17);
 
   @include respond(1700px) {
     // width < 1200?
@@ -23,4 +23,10 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+h1 {
+  margin: 0;
+}
+p {
+  margin: 0;
 }
