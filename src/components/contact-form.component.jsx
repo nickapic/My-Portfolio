@@ -2,7 +2,7 @@ import React from "react";
 import "./contact-form.style.scss";
 export default function ContactForm() {
   return (
-    <div className="contact-form">
+    <div className="contact-form" id="form">
       <div className="text-content">
         <h1 className="contact-title">Contact Me</h1>
         <p>
@@ -11,23 +11,53 @@ export default function ContactForm() {
         </p>
       </div>
 
-      <form action="POST" data-netlify="true" className="contact-form-form">
-        <label htmlFor="fname">First Name</label>
-        <input type="text" id="fname" className="fname" />
+      <form action="POST" data-netlify="true" className="form">
+        <label htmlFor="fname" className="label">
+          First Name
+        </label>
+        <input
+          type="text"
+          id="fname"
+          name="firstname"
+          placeholder="Your First Name Here"
+          className="input-section"
+        />
 
-        <label htmlFor="lname">Last Name</label>
-        <input type="text" className="lastname" id="lname" />
+        <label htmlFor="lname" className="label">
+          Last Name
+        </label>
+        <input
+          type="text"
+          id="lname"
+          name="lastname"
+          placeholder="Your Last Name Here"
+          className="input-section"
+        />
 
-        <label htmlFor="email">Email</label>
-        <input type="text" className="email" id="email" />
-        <label htmlFor="message">Your Message</label>
+        <label htmlFor="email" className="label">
+          Email
+        </label>
+        <input
+          type="text"
+          id="email"
+          name="email"
+          placeholder="Your Email Here"
+          className="input-section"
+          required
+        />
+        <label htmlFor="subject" className="label">
+          Subject
+        </label>
         <textarea
-          name="message"
-          id="message"
-          placeholder="Your inquiry here"
+          name="subject"
+          className="input-section"
+          id="subject"
+          cols="70"
+          rows="10"
+          required
+          res
         ></textarea>
-        <label htmlFor="submit"></label>
-        <input type="submit" id="submit" value="Submit" />
+        <input type="submit" id="submit" value="submit" />
       </form>
     </div>
   );

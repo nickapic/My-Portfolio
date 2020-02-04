@@ -1,60 +1,54 @@
-.contact-form {
-  width: 100%;
-  margin: 4rem 4rem;
-
-  border-radius: 5px;
+#form {
   display: flex;
   flex-direction: column;
-  .text-content {
-    color: white;
-    width: 100%;
-    h1 {
-      margin: 0;
-    }
-    p {
-      font-size: 1rem;
-      width: 80%;
-    }
-  }
-  form {
-    color: white;
-    font-family: inherit;
-    display: flex;
-    flex-direction: column;
-  }
-  input,
-  input:focus,
-  input:active {
-    font-family: inherit;
-    font-size: 1rem;
-    width: 40%;
-    padding: 0.5rem 0.5rem;
-    border: none;
-    border-bottom: solid 2px black;
-    outline: none;
-  }
-  label {
-    padding-top: 1rem;
-  }
-  textarea,
-  textare:focus {
-    font-family: inherit;
-    display: block;
-    height: 200px;
-    width: 40%;
-    padding: 0.5rem 0.5rem;
-    border: none;
-    border-bottom: solid 2px black;
-    outline: none;
-  }
-  #submit {
-    text-align: center;
-    color: white;
-    border: none;
-    margin-top: 1rem;
-    background-color: rgb(230, 89, 24);
-    width: 10%;
-    border-radius: 50px;
-    cursor: pointer;
-  }
+  width: 70%;
+  align-items: flex-start;
+  margin: 2rem auto;
+  padding: 2rem;
+  margin-bottom: 6rem;
+  border-radius: 10px;
+
+  background: -webkit-linear-gradient(
+      right,
+      rgba(0, 0, 0, 0.863),
+      rgba(0, 0, 0, 0.883)
+    ),
+    url(https://i.ibb.co/6PGnKL5/steven-roe-bx-Uyl-Pip-Wm-M-unsplash-min.jpg)
+      no-repeat center;
+  background: linear-gradient(
+      to right,
+      rgba(0, 0, 0, 0.822),
+      rgba(0, 0, 0, 0.808)
+    ),
+    url(https://i.ibb.co/6PGnKL5/steven-roe-bx-Uyl-Pip-Wm-M-unsplash-min.jpg)
+      no-repeat center;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+}
+.input-section,
+.input-section:focus {
+  padding: 7px 5px;
+  font-size: 1rem;
+  font-family: inherit;
+  outline: none;
+  border: none;
+  margin-top: 5px;
+}
+.label {
+  font-size: 0.75rem;
+  padding-top: 1rem;
+  font-weight: 700;
+}
+#submit {
+  font-size: 1rem;
+  font-family: inherit;
+  text-transform: uppercase;
+  font-weight: 700;
+  background-color: #fff;
+  border: none;
+  margin-top: 1rem;
+  width: 25%;
+  padding: 7px 10px;
 }
