@@ -36,12 +36,12 @@ export default class Cards extends Component {
         },
         {
           title: "HackerNews Resdesigned",
-          id: 3,
+          id: 4,
           info:
             "A  website to get latest news articles/posts related to technology and hacking from all around the web using the Hackernews API.",
           stack: "React",
-          githubUrl: "https://github.com/nickapic/ABCofIR-Blog-Wbsite",
-          hostedUrl: "https://epic-joliot-a6a354.netlify.com/"
+          githubUrl: "https://github.com/nickapic/Hacker-News-Redisgn",
+          hostedUrl: "https://stoic-meitner-ecd069.netlify.com/"
         }
       ]
     };
