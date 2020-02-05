@@ -26,7 +26,11 @@ export default function ContactForm() {
         id="contact-form"
         className="form"
       >
-        <input type="hidden" name="form-name" value="Contact Form" />
+        <input
+          type="hidden"
+          name="form-name"
+          value="the-name-of-the-html-form"
+        />
         <label htmlFor="fname" className="label">
           First Name
         </label>
@@ -72,9 +76,7 @@ export default function ContactForm() {
           required
           res
         ></textarea>
-        <button type="submit" class="pageclip-form__submit">
-          <span>Send</span>
-        </button>
+        <input type="submit" id="submit" value="submit" />
       </form>
     </div>
   );
