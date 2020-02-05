@@ -72,7 +72,9 @@ export default function ContactForm() {
           required
           res
         ></textarea>
-        <input type="submit" className="pageclip-form__submit" value="submit" />
+        <button type="submit" class="pageclip-form__submit">
+          <span>Send</span>
+        </button>
       </form>
     </div>
   );
