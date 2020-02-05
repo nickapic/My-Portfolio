@@ -22,7 +22,7 @@ export default function ContactForm() {
       <form
         name="form"
         method="post"
-        netlify
+        action="https://send.pageclip.co/gFNB90RfV7BTCTL90pBZ1uGXurVjssQY"
         id="contact-form"
         className="form"
       >
