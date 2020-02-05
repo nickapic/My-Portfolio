@@ -26,6 +26,11 @@ export default function ContactForm() {
         id="contact-form"
         className="form"
       >
+        <input
+          type="hidden"
+          name="form-name"
+          value="the-name-of-the-html-form"
+        />
         <label htmlFor="fname" className="label">
           First Name
         </label>
