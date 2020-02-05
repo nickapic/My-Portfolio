@@ -12,11 +12,12 @@ export default function About() {
           very intrested in the field of Web development and i have been self
           studying front end web devlopment from the past year.
           <br />
-          <br />I have experience in the technologies Javascript,Html,Css,Node
-          Js,React,C# and I also have experience in the design field. My main
-          goal is to gain more and more experience in front end development and
-          then move on to full stack development i am very enthusiastic about
-          learning new technologies and make amazing websites come to life.
+          <br />I have experience in the technologies Javascript, Html, Css,
+          Node Js, React, C# and I also have experience in the design field. My
+          main goal is to gain more and more experience in front end development
+          and then move on to full stack development i am very enthusiastic
+          about learning new technologies and make amazing websites come to
+          life.
         </p>
       </div>
       <div className="image-box">

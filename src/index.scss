@@ -7,6 +7,7 @@
 html {
   background-color: rgb(17, 17, 17);
   box-sizing: border-box;
+
   @include respond(1700px) {
     // width < 1200?
     font-size: 85%; //1 rem = 9px, 9/16 = 50%
@@ -37,4 +38,22 @@ h1 {
 }
 p {
   margin: 0;
+}
+
+@media only screen and (min-width: 1900px) {
+  html {
+    font-size: 130%;
+  }
+}
+
+@media only screen and (min-width: 3000px) {
+  html {
+    font-size: 160%;
+  }
+}
+
+@media only screen and (min-width: 3000px) {
+  html {
+    font-size: 190%;
+  }
 }

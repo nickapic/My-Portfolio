@@ -13,7 +13,6 @@ export default class Cards extends Component {
           info:
             "An application to track your in game stats for the game The Division 2 to track your progress on the go much easily.",
           stack: "Vue, Express, Node Js",
-          image: "https://i.ibb.co/g93WFpM/division2.png",
           githubUrl: "https://github.com/nickapic/TheDivision2Tracker",
           hostedUrl: "https://ancient-springs-87914.herokuapp.com/"
         },
@@ -23,19 +22,17 @@ export default class Cards extends Component {
           info:
             "A blog website for stuff related to the subject of International Relations managed by students who study that field",
           stack: "Gatsby.js , React Spring",
-          image: "https://i.ibb.co/QDc4SCV/pic1.png",
           githubUrl: "https://github.com/nickapic/ABCofIR-Blog-Wbsite",
           hostedUrl: "https://epic-joliot-a6a354.netlify.com/"
         },
         {
-          title: "Josiah Portfolio",
+          title: "Project Never Pass",
           id: 3,
           info:
-            "A blog website for stuff related to the subject of International Relations managed by students who study that field",
-          stack: "Gatsby.js , React Spring",
-          image: "https://i.ibb.co/g93WFpM/division2.png",
-          githubUrl: "https://github.com/nickapic/ABCofIR-Blog-Wbsite",
-          hostedUrl: "https://epic-joliot-a6a354.netlify.com/"
+            "A Desktop Application which help you manage your passwords in a very secure way with text encryption,salting and file encryption methodologies implemented",
+          stack: "  C#",
+          githubUrl: "https://github.com/nickapic/ProjectNeverPassSolution",
+          hostedUrl: "https://github.com/nickapic/ProjectNeverPassSolution"
         },
         {
           title: "HackerNews Resdesigned",
@@ -43,7 +40,6 @@ export default class Cards extends Component {
           info:
             "A  website to get latest news articles/posts related to technology and hacking from all around the web using the Hackernews API.",
           stack: "React",
-          image: "https://i.ibb.co/g93WFpM/division2.png",
           githubUrl: "https://github.com/nickapic/ABCofIR-Blog-Wbsite",
           hostedUrl: "https://epic-joliot-a6a354.netlify.com/"
         }

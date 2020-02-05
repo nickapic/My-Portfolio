@@ -43,3 +43,13 @@
     width: 100%;
   }
 }
+@media only screen and (min-width: 1900px) {
+  .about-container {
+    padding-top: 8rem;
+  }
+}
+@media only screen and (max-width: 400px) {
+  .about-container {
+    padding-top: 5rem;
+  }
+}

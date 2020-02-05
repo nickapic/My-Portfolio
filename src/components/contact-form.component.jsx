@@ -12,14 +12,14 @@ export default function ContactForm() {
           <br />
           Or do you have an application you are interested in developing, a
           problem that needs solving or a project that needs rescuing, feel free
-          to drop a message I would ove to help you with it or send me a email.
+          to drop a message I would love to help you with it or send me a email.
           <br />
           <br />
           Email: aniket6401@gmail.com
         </p>
       </div>
 
-      <form method="POST" data-netlify="true" className="form">
+      <form action="POST" data-netlify="true" className="form">
         <label htmlFor="fname" className="label">
           First Name
         </label>
