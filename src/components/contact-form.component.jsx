@@ -19,7 +19,13 @@ export default function ContactForm() {
         </p>
       </div>
 
-      <form name="form" method="post" netlify className="form">
+      <form
+        name="form"
+        method="post"
+        netlify
+        id="contact-form"
+        className="form"
+      >
         <label htmlFor="fname" className="label">
           First Name
         </label>

@@ -20,11 +20,21 @@ export default function Card({
           <strong>Stack Used</strong> : {stack}
         </p>
         <br />
-        <a href={githubUrl} className="button">
+        <a
+          href={githubUrl}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="button"
+        >
           Github Link
         </a>
         <br />
-        <a href={hostedUrl} className="button">
+        <a
+          href={hostedUrl}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="button"
+        >
           Hosted Link
         </a>
       </div>
