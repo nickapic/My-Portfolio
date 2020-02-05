@@ -6,10 +6,18 @@
 
 html {
   background-color: rgb(17, 17, 17);
-
+  box-sizing: border-box;
   @include respond(1700px) {
     // width < 1200?
     font-size: 85%; //1 rem = 9px, 9/16 = 50%
+  }
+  @include respond(1400px) {
+    // width < 1200?
+    font-size: 80%; //1 rem = 9px, 9/16 = 50%
+  }
+  @include respond(400px) {
+    // width < 1200?
+    font-size: 65%; //1 rem = 9px, 9/16 = 50%
   }
 }
 body {

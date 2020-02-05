@@ -2,7 +2,7 @@ import React from "react";
 import "./about.style.scss";
 export default function About() {
   return (
-    <div className="about-container">
+    <div className="about-container" id="about">
       <div className="text-box">
         <h1 className="about-me-title">About me</h1>
         <br />
@@ -13,9 +13,9 @@ export default function About() {
           studying front end web devlopment from the past year.
           <br />
           <br />I have experience in the technologies Javascript,Html,Css,Node
-          Js,React and I also have experience in the design field. My main goal
-          is to gain more and more experience in front end development and then
-          move on to full stack development i am very enthusiastic about
+          Js,React,C# and I also have experience in the design field. My main
+          goal is to gain more and more experience in front end development and
+          then move on to full stack development i am very enthusiastic about
           learning new technologies and make amazing websites come to life.
         </p>
       </div>

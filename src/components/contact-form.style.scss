@@ -1,13 +1,12 @@
 #form {
   display: flex;
-  flex-direction: column;
-  width: 70%;
+  width: auto;
   align-items: flex-start;
   margin: 2rem auto;
-  padding: 2rem;
+  padding: 3rem 4rem;
   margin-bottom: 6rem;
   border-radius: 10px;
-
+  /*
   background: -webkit-linear-gradient(
       right,
       rgba(0, 0, 0, 0.863),
@@ -22,14 +21,16 @@
     ),
     url(https://i.ibb.co/6PGnKL5/steven-roe-bx-Uyl-Pip-Wm-M-unsplash-min.jpg)
       no-repeat center;
+*/
 }
 .form {
+  margin-left: 7rem;
   display: flex;
   flex-direction: column;
 }
 .input-section,
 .input-section:focus {
-  padding: 7px 5px;
+  padding: 7px 9px;
   font-size: 1rem;
   font-family: inherit;
   outline: none;
@@ -37,18 +38,51 @@
   margin-top: 5px;
 }
 .label {
-  font-size: 0.75rem;
+  font-size: 1rem;
   padding-top: 1rem;
   font-weight: 700;
+  text-transform: uppercase;
+}
+.text-content {
+  width: 50%;
+}
+.contact-title {
+  text-transform: uppercase;
+  border-bottom: solid 4px white;
+}
+.contact-paragraph {
+  width: 75%;
+  font-size: 1.5rem;
 }
 #submit {
   font-size: 1rem;
   font-family: inherit;
   text-transform: uppercase;
-  font-weight: 700;
   background-color: #fff;
   border: none;
   margin-top: 1rem;
   width: 25%;
   padding: 7px 10px;
+}
+@media only screen and (max-width: 1100px) {
+  .contact-paragraph {
+    width: 85%;
+    font-size: 1.25rem;
+  }
+}
+
+@media only screen and (max-width: 850px) {
+  #form {
+    flex-direction: column;
+  }
+  .text-content {
+    width: 100%;
+    margin-bottom: 3rem;
+  }
+  .form {
+    padding-top: 1rem;
+    border-top: solid 4px white;
+    margin-left: 0rem;
+    width: 100%;
+  }
 }

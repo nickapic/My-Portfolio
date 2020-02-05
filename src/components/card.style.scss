@@ -1,6 +1,6 @@
 .project-display-card {
   display: flex;
-  margin: 3rem 0rem 0 4rem;
+  margin: 1rem auto 0 auto;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
@@ -17,5 +17,7 @@
   text-transform: uppercase;
 }
 .maincontainer {
-  min-height: 100vh;
+  padding-top: 6rem;
 }
+
+

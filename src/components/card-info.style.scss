@@ -1,6 +1,11 @@
 .card {
-  height: 100%;
-  padding: 1rem 2rem;
+  display: block;
+  height: 25rem;
+  margin: 1rem 0 0 1rem;
+  padding: 2rem 2rem;
+  width: auto;
+
+  align-self: center;
   cursor: pointer;
   background: -webkit-linear-gradient(
       top,
@@ -16,7 +21,6 @@
     ),
     url(https://i.ibb.co/n898FMW/alex-perez-p-Egs-WN0kwb-Q-unsplash-min.jpg)
       no-repeat bottom;
-  margin: 2rem 0;
   width: 20rem;
   transition: all 0.3s ease-in-out;
 
@@ -29,7 +33,7 @@
     font-size: 1.5rem;
   }
   p {
-    font-size: 0.75rem;
+    font-size: 1rem;
     width: 100%;
   }
   strong {

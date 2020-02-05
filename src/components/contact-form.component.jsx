@@ -5,9 +5,17 @@ export default function ContactForm() {
     <div className="contact-form" id="form">
       <div className="text-content">
         <h1 className="contact-title">Contact Me</h1>
-        <p>
-          If you have any inquiries or just wanna chat feel free to message me
-          on here.
+        <p className="contact-paragraph">
+          <br />
+          Are you looking for a professional, communicative and punctual
+          software engineer with FrontEnd web development skills? <br />
+          <br />
+          Or do you have an application you are interested in developing, a
+          problem that needs solving or a project that needs rescuing, feel free
+          to drop a message I would ove to help you with it or send me a email.
+          <br />
+          <br />
+          Email: aniket6401@gmail.com
         </p>
       </div>
 

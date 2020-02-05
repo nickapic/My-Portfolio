@@ -2,7 +2,7 @@
   display: flex;
   width: 100%;
   margin-left: 4rem;
-  padding-top: 4rem;
+  padding-top: 3rem;
   height: 40%;
 
   justify-content: center;
@@ -34,4 +34,12 @@
   width: 100%;
   display: flex;
   align-items: flex-start;
+}
+@media only screen and (max-width: 1300px) {
+  .image-box {
+    display: none;
+  }
+  .text-box {
+    width: 100%;
+  }
 }

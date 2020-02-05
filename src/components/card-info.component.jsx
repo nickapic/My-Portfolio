@@ -16,7 +16,9 @@ export default function Card({
         <p>
           <strong>Information</strong> : {info}
         </p>
-        <span>Stack Used : {stack}</span>
+        <p>
+          <strong>Stack Used</strong> : {stack}
+        </p>
         <br />
         <a href={githubUrl} className="button">
           Github Link

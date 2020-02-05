@@ -68,11 +68,11 @@ export default class Cards extends Component {
       <div className="maincontainer">
         <h1 className="heading">Work</h1>
         <div className="container">
-          {this.state.projects.map(({ id, ...otherProps }) => (
-            <div className="project-display-card">
+          <div className="project-display-card">
+            {this.state.projects.map(({ id, ...otherProps }) => (
               <Card key={id} {...otherProps} />
-            </div>
-          ))}
+            ))}
+          </div>
         </div>
       </div>
     );
