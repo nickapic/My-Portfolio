@@ -10,7 +10,6 @@
   font-size: 1.5rem;
   width: 50%;
   margin-top: 1rem;
-  letter-spacing: 4px;
   animation-delay: 1.2s;
 }
 .hero-section {
@@ -133,7 +132,7 @@
 
 @media only screen and (max-width: 1100px) {
   .hero-section:before {
-    height: 85vh;
+    height: 100vh;
   }
 
   .maintext {

@@ -56,10 +56,12 @@
 }
 #submit {
   font-size: 1rem;
+  font-weight: 700;
   font-family: inherit;
   text-transform: uppercase;
-  background-color: #fff;
-  border: none;
+  color: white;
+  background-color: transparent;
+  border: solid 3px white;
   margin-top: 1rem;
   width: 25%;
   padding: 7px 10px;
