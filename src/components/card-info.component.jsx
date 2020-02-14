@@ -29,14 +29,16 @@ export default function Card({
           Github Link
         </a>
         <br />
-        <a
-          href={hostedUrl}
-          target="_blank"
-          rel="noopener noreferrer"
-          className="button"
-        >
-          Hosted Link
-        </a>
+        {hostedUrl ? (
+          <a
+            href={hostedUrl}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="button"
+          >
+            Hosted Link
+          </a>
+        ) : null}
       </div>
     </div>
   );

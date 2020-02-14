@@ -18,7 +18,6 @@ const Header = props => {
           target="_blank"
           rel="noopener noreferrer"
           className="nav-item h"
-          sbgaksgmakmg
         >
           Resume
         </a>

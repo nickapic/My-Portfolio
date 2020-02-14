@@ -31,8 +31,7 @@ export default class Cards extends Component {
           info:
             "A Desktop Application which help you manage your passwords in a very secure way with text encryption,salting and file encryption methodologies implemented",
           stack: "  C#",
-          githubUrl: "https://github.com/nickapic/ProjectNeverPassSolution",
-          hostedUrl: "https://github.com/nickapic/ProjectNeverPassSolution"
+          githubUrl: "https://github.com/nickapic/ProjectNeverPassSolution"
         },
         {
           title: "HackerNews Resdesigned",
@@ -61,7 +60,7 @@ export default class Cards extends Component {
   }
   render() {
     return (
-      <div className="maincontainer">
+      <section className="maincontainer">
         <h1 className="heading">Work</h1>
         <div className="container">
           <div className="project-display-card">
@@ -70,7 +69,7 @@ export default class Cards extends Component {
             ))}
           </div>
         </div>
-      </div>
+      </section>
     );
   }
 }

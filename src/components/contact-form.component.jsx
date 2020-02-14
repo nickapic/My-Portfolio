@@ -2,7 +2,7 @@ import React from "react";
 import "./contact-form.style.scss";
 export default function ContactForm() {
   return (
-    <div className="contact-form" id="form">
+    <section className="contact-form" id="form">
       <div className="text-content">
         <h1 className="contact-title">Contact Me</h1>
         <p className="contact-paragraph">
@@ -57,7 +57,7 @@ export default function ContactForm() {
           Email
         </label>
         <input
-          type="text"
+          type="email"
           id="email"
           name="email"
           placeholder="Your Email Here"
@@ -78,6 +78,6 @@ export default function ContactForm() {
         ></textarea>
         <input type="submit" id="submit" value="submit" />
       </form>
-    </div>
+    </section>
   );
 }
