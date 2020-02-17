@@ -8,5 +8,3 @@ export default function HeroSection({ maintext, subtext }) {
     </section>
   );
 }
-
-}
