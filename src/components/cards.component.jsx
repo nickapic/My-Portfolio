@@ -41,6 +41,15 @@ export default class Cards extends Component {
           stack: "React",
           githubUrl: "https://github.com/nickapic/Hacker-News-Redisgn",
           hostedUrl: "https://stoic-meitner-ecd069.netlify.com/"
+        },
+        {
+          title: "Crown Clothing",
+          id: 5,
+          info:
+            "A eCommerce website which handles the selling of clothes it has features like payment, login, registration, State Managment",
+          stack: "React, Redux, Firebase",
+          githubUrl: "https://github.com/nickapic/Crown-Clothing",
+          hostedUrl: "https://determined-leakey-c66b72.netlify.com/"
         }
       ]
     };
