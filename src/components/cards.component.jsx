@@ -50,6 +50,15 @@ export default class Cards extends Component {
           stack: "React, Redux, Firebase",
           githubUrl: "https://github.com/nickapic/Crown-Clothing",
           hostedUrl: "https://determined-leakey-c66b72.netlify.com/"
+        },
+        {
+          title: "Budgetify",
+          id: 6,
+          info:
+            "A full stack budget manager applications with Login,Sign up functionalities.",
+          stack: "React, Redux, MongoDB, NodeJs, Express",
+          githubUrl: "https://github.com/nickapic/BudgetMangerApplication",
+          hostedUrl: "https://budgetify-2.herokuapp.com/"
         }
       ]
     };
