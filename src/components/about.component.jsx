@@ -9,8 +9,9 @@ export default function About() {
         <p className="about-me-paragraph">
           My name is Aniket Chauhan. I study Bachelors information Systems and
           Cyber Security at Vilnius University Lithuania. I have been always
-          very intrested in the field of Web development and i have been self
-          studying front end web devlopment from the past year.
+          very intrested in the field of Ethical hacking and Web development i
+          have been self studying these for the past few years and trying to
+          solve problems and ctfs in sites like TryHackMe and HackTheBox.
           <br />
           <br />I have experience in the technologies Javascript, Html, Css,
           Node Js, React, C# and I also have experience in the design field. My
