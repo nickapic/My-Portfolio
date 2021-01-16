@@ -13,7 +13,7 @@ export default class Home extends Component {
       home: {
         title: "Hello, My name is Aniket Chauhan",
         subTitle:
-          "I am a Front End Developer with experience and a eye for UI/UX"
+          "I am a Cyber Security Professional and a Red Team, Web Development Enthusiast"
       }
     };
   }
