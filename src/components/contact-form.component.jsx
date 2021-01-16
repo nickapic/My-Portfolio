@@ -8,10 +8,9 @@ export default function ContactForm() {
         <p className="contact-paragraph">
           <br />
           Are you looking for a professional, communicative and punctual
-          software engineer with FrontEnd web development skills? <br />
+         Ethical Hacker with Red Teaming and Web Devlopment Skills <br />
           <br />
-          Or do you have an application you are interested in developing, a
-          problem that needs solving or a project that needs rescuing, feel free
+          Or do you have an application you are interested in getting Securty Testing done for feel free
           to drop a message I would love to help you with it or send me a email.
           <br />
           <br />
