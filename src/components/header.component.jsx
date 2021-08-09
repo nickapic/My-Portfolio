@@ -13,14 +13,6 @@ const Header = props => {
         <a href="#form" className="nav-item">
           Contact Me
         </a>
-        <a
-          href="https://drive.google.com/file/d/1UbBAwjLvlEnYK1ozTyE4D-I4vxrHdicS/view?usp=sharing"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="nav-item h"
-        >
-          Resume
-        </a>
       </div>
     </header>
   );
